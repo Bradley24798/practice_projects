@@ -1,0 +1,14 @@
+body{
+  background-color: blueviolet;
+  display: block;
+  text-align: center;
+  padding: auto 80%;
+}
+form {
+  display: block;
+  width: 100%;
+}
+
+label {
+  display: block;
+}
