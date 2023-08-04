@@ -7,6 +7,11 @@ body{
   color: black;
 }
 
+h1,h2 {
+  margin: 0;
+  padding: 0;
+}
+
 #main {
   margin: 20px auto;
   padding: 20px 15px;
@@ -39,20 +44,31 @@ span {
 
 #tribute-info {
   display: flex;
-  flex-wrap: wrap;
-  width: 500px;
-  flex-direction: column;
+  width: 520px;
+  flex-direction:column;
   gap: 20px;
   background-color: #AAA0B8;
-  padding-bottom: 20px;
+  padding: 20px;
   justify-content: center;
-  text-align: left;
-  padding-right: 20px;
   border-radius: 10px;
+  flex-wrap: wrap;
+  padding-left: 20px;
 }
 
 #img-caption {
   font-style: italic;
   padding: 20px;
   margin: 0;
+}
+
+#tribute-link {
+  text-decoration: none;
+}
+
+#tribute-link:hover {
+  cursor: pointer;
+  background-color: #005B41;
+  color: #F9EAFF;
+  padding: 4px;
+  border-radius: 3px;
 }
