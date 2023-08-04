@@ -1,0 +1,55 @@
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #F9EAFF;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  color: black;
+}
+
+#main {
+  margin: 20px auto;
+  padding: 20px 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+span {
+  font-weight: bold;
+}
+
+#img-div {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0;
+  border-radius: 10px;
+}
+
+#image {
+  border-radius: 10px;
+}
+
+#tribute-info {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #AAA0B8;
+  padding-bottom: 20px;
+  justify-content: center;
+  text-align: left;
+  padding-right: 20px;
+  border-radius: 10px;
+}
+
+#img-caption {
+  font-style: italic;
+  padding: 20px;
+  margin: 0;
+}
